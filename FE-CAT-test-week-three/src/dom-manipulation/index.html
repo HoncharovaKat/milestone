@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sobre mi</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Sobre mi</h1>
+
+    <ul>
+      <li>
+        Els meus restaurants preferits a Barcelona:
+        <span id="restaurant"></span>
+      </li>
+      <li>El meu barri a Barcelona: <span id="neighborhood"></span></li>
+      <li>El meu lloc de naixament: <span id="hometown"></span></li>
+    </ul>
+
+    <form>
+      <div>
+        <label>
+          Els meus restaurants preferits a Barcelona
+          <input
+            type="text"
+            id="restaurantsInput"
+            name="restaurantsInput"
+            class="border"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          El meu barri a Barcelona
+          <input
+            type="text"
+            id="neighborhoodInput"
+            name="neighborhoodInput"
+            class="border"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          El meu lloc de naixament
+          <input
+            type="text"
+            id="hometownInput"
+            name="hometownInput"
+            class="border"
+          />
+        </label>
+      </div>
+      <button type="submit" class="border">Enviar</button>
+    </form>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
